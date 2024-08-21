@@ -4,3 +4,4 @@ dist/*
 eval_config.yaml
 **/*.yaml
 .idea/*
+**/__pycache__/*

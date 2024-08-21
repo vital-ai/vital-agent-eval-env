@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='vital-agent-eval-env',
-    version='0.0.1',
+    version='0.0.2',
     author='Marc Hadfield',
     author_email='marc@vital.ai',
     description='Vital Agent Eval Env',
@@ -14,7 +14,7 @@ setup(
 
     },
     scripts=[
-
+        'bin/vitalagenteval'
     ],
     package_data={
         '': ['*.pyi']
@@ -23,6 +23,8 @@ setup(
     install_requires=[
         'vital-ai-vitalsigns>=0.1.19',
         'vital-ai-aimp>=0.1.6',
+        'vital-agent-container-client>=0.0.3',
+        'openpyxl'
     ],
     extras_require={
         'dev': [

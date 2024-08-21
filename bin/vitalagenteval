@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python -m vital_agent_eval_cmd.vital_agent_eval_cmd "$@"
